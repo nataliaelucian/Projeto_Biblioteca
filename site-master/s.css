@@ -1,0 +1,133 @@
+body{
+background-size:no-repeat;
+background-image: url(f.jpg);
+}
+h2
+*{
+    margin: px;
+    padding: 0;
+ 
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: azure; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: rgb(23, 21, 21);
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  
+}
+nav li{
+    margin-left: 9px;
+}
+nav{
+    margin-top: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+
+    border-radius: 20px;
+    transition: 0.3s;
+}
+nav li a:hover{
+ 
+   
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .sub_titulo{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+}
+.texto .botoes{
+    margin-top: 0px;
+}
+.texto .botoes button{
+    height: 45px;
+    width: 170px;
+    border-radius: 30px;
+    border: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-left: 1200px;
+    transition: 0.3s;
+}
+.texto .botoes button.direita{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+.texto .botoes button.direita:hover{
+    color: black;
+    background-color: white;
+}
+.texto .botoes button.direita{
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+   
+}
+@keyframes vibrar {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+h1{
+  
+  
+    margin-left: 1100px;
+
+}
+h2{
+    color: transparent;
+  
+    margin-left: 10px;
+
+}
+
+.card-content-area{
+    height: 80px;
+    width: 80px;
+    margin-top:20px ;
+}
+input{
+    border-radius: 80px;
+    padding: 10px;
+}
