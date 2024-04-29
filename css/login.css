@@ -88,3 +88,13 @@ justify-content: center;
 }
 
 
+/* Essa regra trabalha as configurações do botão de login*/
+.wrapper form .button input{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 0;
+    background: gray;
+    border: 1px solid lightgray;
+}
+
