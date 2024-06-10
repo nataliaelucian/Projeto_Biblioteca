@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="CSS/login.css">
     <link rel="icon" href="img/livro.ico" />
     
-    <title>Biblioteca Escolar - Login</title>
+    <title>Biblioteca Escolar PBL- Login</title>
 </head>
-
 <body>
-   <div class="container">
-    <div class = "wrapper">
-        <div class = "title">
-            <span>Faça Seu Login</span>
+  <div class="container">
+    <div class="wrapper">
+        <div class="title">
+            <span>Faça seu login</span>
         </div>
-        <form action = "Dahsboard.html">
+        <form action="Dashboard.html">
             <div class="row">
-                <div class = "i"><i class ="fa-solid fa-user" style = "color: white;"></i></div>
-                <input type = "text" placeholder = "Email" id = "email" required>
+                <div class="i"><i class="fa-solid fa-user" style="color: white;"></i></div>
+                <input type="text" placeholder="E-mail" id="email" autofocus required>
             </div>
             <div class="row">
-                <div class = "i"><i class="fa-solid fa-lock" style="color: white;"></i></div>
-                <input type = "password" placeholder = "Senha" id = "senha" required>
+                <div class="i"><i class="fa-solid fa-lock" style="color: white;"></i></div>
+                <input type="password" placeholder="Senha" id="senha" autofocus required>
             </div>
-            <div class="row button">
-                <div class="pass"><p>Esqueceu a Senha?</p></div>    
-            <input type = "submit" value = "Login" onclick="logar(); return false">
+                     <div class="row button">
+                <div class="pass"><p>Esqueceu a Senha?</p></div>
+                <input type="submit" value="Login" class="butt" onclick="logar(); return false">
             </div>
-        </form>
+        </form>  
     </div>
-</div>
-<body>
+  </div>
+</body>
 </html>
