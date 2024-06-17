@@ -43,7 +43,7 @@ body{
 /* Essa regra cria uma faixa na parte superior da caixa, aparecendo um titulo na tela de login*/
 .wrapper .title{
     line-height: 80px;
-    background: green ;
+    background: gray;
     text-align: center;
     padding-left: 20px;
     border-radius: 7px 7px 0 0;
@@ -76,9 +76,6 @@ body{
     transition: .1s;
 }
 
-.wrapper form .row input:focus{
-    border: 3px solid green;
-}
 /* Essa regra trabalha a organização de elementos, efeitos de sombra, 
 bordas entre outros*/
 .wrapper form .row .i{
@@ -86,7 +83,7 @@ bordas entre outros*/
     width: 47px;
     height: 100%;
     font-size: 20px;
-    background: green;
+    background: gray;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,0.25);
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -115,7 +112,7 @@ bordas entre outros*/
     font-size: 18px;
     font-weight: 500;
     padding-left: 0;
-    background: green;
+    background: gray;
     border: 1px solid lightgray;
     cursor: pointer;
 }
